@@ -8,8 +8,8 @@ relative_permalinks: true
 title:               'skurmedel'
 tagline:             'Stuff'
 description:         'My stuff'
-url:                 ''
-baseurl:             'http://skurmedel.github.io'
+url:                 'http://skurmedel.github.io'
+baseurl:             ''
 paginate:            3
 
 # About/contact
