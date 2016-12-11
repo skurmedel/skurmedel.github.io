@@ -5,7 +5,7 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               skurmedel
+title:               'skurmedel'
 tagline:             'Stuff'
 description:         'My stuff'
 url:                 ''
