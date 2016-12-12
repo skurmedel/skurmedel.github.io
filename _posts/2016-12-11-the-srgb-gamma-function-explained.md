@@ -6,7 +6,7 @@ category: computer graphics
 ---
 
 ## What is sRGB?
-sRGB is a colour space, and a standard that is probably the most common colour space for computer displays. 
+sRGB is a colour space, and a standard that is probably the most common colour space for computer displays. Wikipedia [explains this](https://en.wikipedia.org/wiki/SRGB) better than me. If your stuff will be displayed on the internet, you are most likely targeting sRGB. This applies to virtually all PC games as well.
 
 ## Why do we gamma correct? 
 Here are some good explanations:
@@ -20,7 +20,7 @@ Here are some good explanations:
 Now, after reading the above two links, you might think that gamma correction is simply raising each pixel p:s value by some number:
 $$p^{2.2}$$ and undoing the operation is simply $$p^{1/2.2}$$.
 
-As I'll explain, for sRGB, this is not really correct. It works, but it is an approximation. If you want to be compliant with the standard, you need to use the functions below, which you'll note is actually a piecewise function.
+As I'll explain, for sRGB, this is not really correct. It works, but it is an approximation. If you want to be totally compliant with the standard, you need to use the functions below, which you'll note is actually a piecewise function.
 
 ## Linear to corrected
 
