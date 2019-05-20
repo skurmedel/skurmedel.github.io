@@ -47,17 +47,21 @@ This may all seem very artificial and unrealistic, but we have introduced the fa
 
 For the purposes of a random shuffle it doesn't matter. If you have 4 Pegasuses (Pegasii?), it's perfectly possible, from a probability standpoint that you get 4 of them next to each other.
 
-### 1.2. How many different ways can we draw 7 cards from a completely unique 40 card deck?
+### 1.2. How many different ways can we draw 7 cards?
 
-Magic players are often encouraged to have multiples of some types of cards. This makes intuitive sense. More copies of the same creature, means a more consistent draw. But what if we eschewed this advice and had a 40 card deck where no card were the same. 
+Magic players are often encouraged to have multiples of some types of cards. This makes intuitive sense. More copies of the same creature, means a more consistent draw. But if we can calculate the probability that a card is drawn, we can put a number on the consistency.
 
-Armed with the factorial above, we know that there is 40, then 39, then 38, then 37, then 36, then 35 and finally 34 cards to possible cards at each step. So $$40 \cdot 39 \cdot 38 \cdot 37 \cdot 36 \cdot 35 \cdot 34 = \text{ALOT}$$. This number is enormous, not as enormous as the one above but still unfathomably large.
+First we need to figure out how many ways we can draw 7 cards, treating duplicates as separate cards. After all, we might get duplicates in our draw right?
+
+Armed with the factorial above, we know that there are 40, then 39, then 38, then 37, then 36, then 35 and finally 34 cards to possible cards at each step. So $$40 \cdot 39 \cdot 38 \cdot 37 \cdot 36 \cdot 35 \cdot 34 = \text{ALOT}$$. This number is enormous, not as enormous as the one above but still unfathomably large.
 
 We can denote this number:
 
 $$\frac{40!}{(7 - 1)!}$$
 
-But how many possible starting hands are there? It doesn't matter if I draw 6 Forests and then a Ghalta or a Ghalta then 6 Forests. You would still say this is the same hand.
+### 1.3. But hang on, the order doesn't matter!
+
+It doesn't matter if I draw 6 Forests and then a Ghalta, or a Ghalta then 6 Forests. You would still say this is the same hand.
 
 So in our number above, we have counted the same hand many times over. We can deal with this. How many ways can you arrange 7 cards? Let us rephrase that, how many ways can you shuffle 7 cards?
 
@@ -69,7 +73,7 @@ This number is commonly referred to as the binomial number of 40 and 7. Sometime
 
 $$\frac{40!}{(7 - 1)! \cdot 7!} = 224844379201911853600532206127677440000000$$
 
-Oops, still enormous! But this number is actually many times smaller than $$40!$$. In the next session we will use this to actually calculate something useful!
+Oops, still enormous! But this number is actually many times smaller than $$40!$$ and $$\frac{40!}{(7 - 1)!}$$. In the next session we will use this number to actually calculate something useful!
 
 ## 2. Probabilities
 
