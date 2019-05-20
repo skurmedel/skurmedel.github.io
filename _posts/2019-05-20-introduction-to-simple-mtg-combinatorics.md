@@ -47,11 +47,11 @@ This may all seem very artificial and unrealistic, but we have introduced the fa
 
 For the purposes of a random shuffle it doesn't matter. If you have 4 Pegasuses (Pegasii?), it's perfectly possible, from a probability standpoint that you get 4 of them next to each other.
 
-### 1.2. How many different ways can we draw 7 cards?
+### 1.2. How many different ways can we draw 7 cards from a deck of unique cards?
 
-Magic players are often encouraged to have multiples of some types of cards. This makes intuitive sense. More copies of the same creature, means a more consistent draw. But if we can calculate the probability that a card is drawn, we can put a number on the consistency.
+Magic players are often encouraged to have multiples of some types of cards. This makes intuitive sense. More copies of the same creature, means a more consistent draw. If we can calculate the probability that a card is drawn, we can put a number on the consistency. What if we eschew the expert advice and go with a deck where no card occurs more than once? 
 
-First we need to figure out how many ways we can draw 7 cards, treating duplicates as separate cards. After all, we might get duplicates in our draw right?
+First we need to figure out how many ways we can draw our 7 cards.
 
 Armed with the factorial above, we know that there are 40, then 39, then 38, then 37, then 36, then 35 and finally 34 cards to possible cards at each step. So $$40 \cdot 39 \cdot 38 \cdot 37 \cdot 36 \cdot 35 \cdot 34 = \text{ALOT}$$. This number is enormous, not as enormous as the one above but still unfathomably large.
 
@@ -61,7 +61,7 @@ $$\frac{40!}{(7 - 1)!}$$
 
 ### 1.3. But hang on, the order doesn't matter!
 
-It doesn't matter if I draw 6 Forests and then a Ghalta, or a Ghalta then 6 Forests. You would still say this is the same hand.
+It doesn't matter if I draw white to green, Demolish and then a Ghalta, or a Ghalta then Demolish and 5 colours. You would still say this is the same hand.
 
 So in our number above, we have counted the same hand many times over. We can deal with this. How many ways can you arrange 7 cards? Let us rephrase that, how many ways can you shuffle 7 cards?
 
@@ -69,7 +69,7 @@ We know this! $$7!$$ So each possible hand is counted $$7!$$ times too much in $
 
 $$\frac{40!}{(7 - 1)! \cdot 7!}$$
 
-This number is commonly referred to as the binomial number of 40 and 7. Sometimes we say "40 choose 7 without order", because we choose 7 of something from 40 items, and we don't care about the order.
+This number is commonly referred to as the binomial number of 40 and 7. Sometimes we say "40 choose 7 without order", because we choose 7 of something from 40 items, and we don't care about the order. The number of possible hands in our all-unique 40 deck is thus:
 
 $$\frac{40!}{(7 - 1)! \cdot 7!} = 224844379201911853600532206127677440000000$$
 
