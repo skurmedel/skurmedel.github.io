@@ -37,7 +37,9 @@ The crucial thing to understand now is that when we had picked our first card, f
 
 You can look at it like you are along a path, and at the first fork, you have 40 paths to chose from. The next one has 39 paths, and so forth.
 
-In total we have $40 \cdot 39 \cdot \ldots \cdot 4 \cdot 3 \cdot 2 \cdot 1$ ways to do this. This number is denoted $40!$ by mathematicians, and it's called the factorial. $4! = 4 \cdot 3 \cdot 2 \cdot 1 = 24$ for example.
+In total we have $$40 \cdot 39 \cdot \ldots \cdot 4 \cdot 3 \cdot 2 \cdot 1$$ ways to do this. This number is denoted $$40!$$ by mathematicians, and it's called the factorial. $$4! = 4 \cdot 3 \cdot 2 \cdot 1 = 24$$ for example. The factorial of most numbers is usually a very large number. In fact, the number of ways to shuffle a 40 deck is *gigantic*:
+
+$$40! = 815915283247897734345611269596115894272000000000$$
 
 This may all seem very artificial and unrealistic, but we have introduced the factorial, which is a crucial tool later on.
 
