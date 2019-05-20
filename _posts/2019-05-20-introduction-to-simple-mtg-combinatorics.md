@@ -23,11 +23,27 @@ If you spot an error please do get in touch and tell me.
 
 ## 1. The building blocks
 
-### 1.1. How many ways can we draw 40 cards?
+### 1.1. How many different ways can we shuffle a deck?
 
-#### How many different ways can we sort a deck?
+Let us assume you have a magic deck of 40 cards.
 
-#### A caveat
+Now, how many different ways can we shuffle these 40 cards? A lot, you say. That's true, but how many exactly?
+
+We will shuffle our deck by spilling all the cards out on a table then picking one randomly, one after another.
+
+Let's pick our first card. We have 40 cards to choose from. Then we have another 39 to pick from. Then another 38 and so forth. 
+
+The crucial thing to understand now is that when we had picked our first card, for any card we picked as our first, there would be 39 to choose from for the next pick. This means that there is $40 \cdot 39$ ways to pick the first two cards in our sort.
+
+You can look at it like you are along a path, and at the first fork, you have 40 paths to chose from. The next one has 39 paths, and so forth.
+
+In total we have $40 \cdot 39 \cdot \ldots \cdot 4 \cdot 3 \cdot 2 \cdot 1$ ways to do this. This number is denoted $40!$ by mathematicians, and it's called the factorial. $4! = 4 \cdot 3 \cdot 2 \cdot 1 = 24$ for example.
+
+This may all seem very artificial and unrealistic, but we have introduced the factorial, which is a crucial tool later on.
+
+#### But some cards are the same?
+
+For the purposes of a random shuffle it doesn't matter. If you have 4 Pegasuses (Pegasii?), it's perfectly possible, from a probability standpoint that you get 4 of them next to each other.
 
 ### 1.2. How many different ways can we draw 7 cards from a 40 card deck?
 
