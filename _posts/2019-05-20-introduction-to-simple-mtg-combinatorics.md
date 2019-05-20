@@ -1,8 +1,7 @@
 ---
 layout: post
+title:  An introduction to the math of Magic the Gathering card draw
 ---
-
-# An introduction to Magic the Gathering probabilities
 
 Magic the Gathering is a card game, and card games always involve probabilities. Anyone who's taken a course in probability or
 combinatorics know card games and dice are a favourite among text book authors. 
@@ -11,7 +10,7 @@ Magic has a rich set of mechanics, but it all revolves around drawing cards. Whe
 this, and plan your deck accordingly. Often some simple but really intuitive math can help guide your decisions.
 
 ## Who's this for?
-Maybe you want to answer some of the common questions you have when you are building a Magic deck without entering it into a computer.
+Obviously you like Magic, or have an interest. Maybe you want to answer some of the common questions you have when you are building a Magic deck without entering it into a computer.
 Or maybe you are just curious how they work.
 
 This introduction will not assume great knowledge about maths, but hopefully you can add, multiply and divide. A basic grasp of algebra is helpful too.
