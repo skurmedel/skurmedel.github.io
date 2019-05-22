@@ -60,12 +60,12 @@ $$\frac{40!}{(7 - 1)!}$$
 It doesn't matter if I draw white to green, Demolish and then a Ghalta, or a Ghalta then Demolish and 5 colours. You would still say this is the same hand.
 
 <div style="text-align: center">
-![Image showing cards in one ordering](/public/mtg-unique-hand1.png)
+ <img alt="Image showing cards in one ordering" src="/public/mtg-unique-hand1.png" style="display:block;"/>
   *One ordering*
 </div>
 
 <div style="text-align: center">
-![Image showing cards in another ordering](/public/mtg-unique-hand2.png)
+ <img alt="Image showing cards in another ordering" src="/public/mtg-unique-hand2.png" style="display:block;"/>
   *Another ordering*
 </div>
 
