@@ -75,6 +75,8 @@ Oops, still enormous! But this number is actually many times smaller than $$40!$
 
 ## 2. Multiples of cards
 
+A deck with no multiples at all is a rather unrealistic deck. So let's deal with a more realistic deck, where there's at the very least 6-8 lands of one type, and about the same of another one.
+
 ### 2.1 Dealing with the lands
 
 ### 2.2 Additional multiples
