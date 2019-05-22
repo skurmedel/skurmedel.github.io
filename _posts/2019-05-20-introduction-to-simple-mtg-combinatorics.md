@@ -73,7 +73,7 @@ $$\frac{40!}{(7 - 1)! \cdot 7!} = 224844379201911853600532206127677440000000$$
 
 Oops, still enormous! But this number is actually many times smaller than $$40!$$ and $$\frac{40!}{(7 - 1)!}$$. In the next session we will build upon this to actually account for multiples of a card.
 
-## 2. Multiple of cards
+## 2. Multiples of cards
 
 ### 2.1 Dealing with the lands
 
