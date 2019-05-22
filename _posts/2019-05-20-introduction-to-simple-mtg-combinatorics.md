@@ -60,13 +60,13 @@ $$\frac{40!}{(7 - 1)!}$$
 It doesn't matter if I draw white to green, Demolish and then a Ghalta, or a Ghalta then Demolish and 5 colours. You would still say this is the same hand.
 
 <div style="text-align: center">
- <img alt="Image showing cards in one ordering" src="/public/mtg-unique-hand1.png" style="display:block;"/>
-  *One ordering*
+  <img alt="Image showing cards in one ordering" src="/public/mtg-unique-hand1.png" style="display:inline-block;"/>
+  <em>One ordering</em>
 </div>
 
 <div style="text-align: center">
- <img alt="Image showing cards in another ordering" src="/public/mtg-unique-hand2.png" style="display:block;"/>
-  *Another ordering*
+  <img alt="Image showing cards in another ordering" src="/public/mtg-unique-hand2.png" style="display:inline-block;"/>
+  <em>Another ordering</em>
 </div>
 
 So in our number above, we have counted the same hand many times over. We can deal with this. How many ways can you arrange 7 cards? Let us rephrase that, how many ways can you shuffle 7 cards?
