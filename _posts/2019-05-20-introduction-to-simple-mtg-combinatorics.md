@@ -10,7 +10,7 @@ In this short series we will look at a couple of different questions, you as a p
 I'm most familiar with 40 card, limited, decks, and we will base our scenarios on this. But usually you can just substitute 40 for 60 and the question, and the answer will still hold.
 
 ## Who's this for?
-Obviously you like Magic, or have an interest. Maybe you want to answer some of the common questions you have when you are building a Magic deck without entering it into a computer. Or maybe you have used the probability counter on Deckstats and wonder what theory behind it is.
+Obviously you like Magic, or have an interest. Maybe you want to answer some of the common questions you have when you are building a Magic deck without entering it into a computer. Or maybe you have used the probability counter on Deckstats and wonder what the theory behind it is.
 
 This introduction will not assume great knowledge about maths, but hopefully you can add, multiply and divide. A basic grasp of algebra is helpful too.
 
@@ -39,7 +39,7 @@ The crucial thing to understand now is that when we had picked our first card, f
 
 You can look at it like you are along a trail, and at the first fork, you have 40 paths to chose from. The next one has 39 paths, and so forth. Every day, you walk this trail and change the path you take at some fork. When you've walked all different paths, you count the number of paths taken.
 
-In total we have $$40 \cdot 39 \cdot \ldots \cdot 4 \cdot 3 \cdot 2 \cdot 1$$ ways to do this. This number is denoted $$40!$$ by mathematicians, and it's called the factorial. $$4! = 4 \cdot 3 \cdot 2 \cdot 1 = 24$$ for example. The factorial of most numbers is usually a very large number. In fact, the number of ways to shuffle a 40 deck is *gigantic*:
+In total we have $$40 \cdot 39 \cdot \ldots \cdot 4 \cdot 3 \cdot 2 \cdot 1$$ ways to do this. This number is denoted $$40!$$ by mathematicians, and it's called the factorial. $$4! = 4 \cdot 3 \cdot 2 \cdot 1 = 24$$ for example. The factorial of most numbers is usually a very large number. In fact, the number of ways to shuffle an all-unique 40 deck is *gigantic*:
 
 $$40! = 815915283247897734345611269596115894272000000000$$
 
@@ -73,8 +73,14 @@ $$\frac{40!}{(7 - 1)! \cdot 7!} = 224844379201911853600532206127677440000000$$
 
 Oops, still enormous! But this number is actually many times smaller than $$40!$$ and $$\frac{40!}{(7 - 1)!}$$. In the next session we will build upon this to actually account for multiples of a card.
 
-## 2. Probabilities
+## 2. Multiple of cards
 
-### 2.1. The basics
+### 2.1 Dealing with the lands
 
-### 2.2. Whats the probability we get one of our 1-drops in the first hand?
+### 2.2 Additional multiples
+
+## 3. Probabilities
+
+### 3.1. The basics
+
+### 3.2. Whats the probability we get one of our 1-drops in the first hand?
