@@ -49,7 +49,7 @@ This may all seem very artificial and unrealistic, but we have introduced the fa
 
 The starting hand in Magic is very important; so important in fact that you are allowed to mulligan and draw a new (smaller) hand. The possible starting hands is thus of keen interest to most players. 
 
-Armed with the factorial above, we know that there are 40, then 39, then 38, then 37, then 36, then 35 and finally 34 cards to possible cards at each step. So $$40 \cdot 39 \cdot 38 \cdot 37 \cdot 36 \cdot 35 \cdot 34 = \text{ALOT}$$. This number is enormous, not as enormous as the one above but still unfathomably large.
+Armed with the factorial above, we know that there are 40, then 39, then 38, then 37, then 36, then 35 and finally 34 cards to possible cards at each step. So $$40 \cdot 39 \cdot 38 \cdot 37 \cdot 36 \cdot 35 \cdot 34 = \text{A LOT}$$. This number is enormous, not as enormous as the one above but still unfathomably large.
 
 We can denote this number:
 
